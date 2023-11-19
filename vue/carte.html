@@ -87,9 +87,21 @@
               var customPoint1 = L.marker([48.8566, 2.3522]).addTo(map); // Exemple avec les coordonnées de Paris
               customPoint1.bindPopup("Coordonnées personnalisées : " + customPoint1.getLatLng().lat + ", " + customPoint1.getLatLng().lng).openPopup();
               customPoint1.on('click', onMarkerClick);
+              // Ajouter des marqueurs sur la carte avec des coordonnées spécifiques
+              var customPoint3 = L.marker([49.120200, 6.165379]).addTo(map); // Exemple avec les coordonnées de Paris
+              customPoint1.bindPopup("Vtt disponible à : " + customPoint1.getLatLng().lat + ", " + customPoint1.getLatLng().lng).openPopup();
+              customPoint1.on('click', onMarkerClick);
+
+              var customPoint3 = L.marker([49.120200, 6.105379]).addTo(map); // Exemple avec les coordonnées de Paris
+              customPoint1.bindPopup("Vtt disponible à : " + customPoint1.getLatLng().lat + ", " + customPoint1.getLatLng().lng).openPopup();
+              customPoint1.on('click', onMarkerClick);
+
+              var customPoint4 = L.marker([49.070200, 6.165379]).addTo(map); // Exemple avec les coordonnées de Paris
+              customPoint1.bindPopup("Vtt disponible à : " + customPoint1.getLatLng().lat + ", " + customPoint1.getLatLng().lng).openPopup();
+              customPoint1.on('click', onMarkerClick);
 
               var customPoint2 = L.marker([49.1197773, 7.16152]).addTo(map); // Autre exemple de coordonnées
-              customPoint2.bindPopup("Coordonnées personnalisées : " + customPoint2.getLatLng().lat + ", " + customPoint2.getLatLng().lng).openPopup();
+              customPoint2.bindPopup("Vtt disponible à : " + customPoint2.getLatLng().lat + ", " + customPoint2.getLatLng().lng).openPopup();
               customPoint2.on('click', onMarkerClick);
             }
 
